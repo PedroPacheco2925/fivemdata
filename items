@@ -1,0 +1,2074 @@
+return {
+	['r_trapphone'] = {
+		label = 'Trap Phone',
+		weight = 35,
+		stack = false,
+		close = true,
+	},
+	['peixe_cru'] = {
+    	label = 'Peixe Fresco',
+    	weight = 500,
+    	stack = true,
+    	close = true,
+	},
+	['sardinha'] = {
+    	label = 'Sardinha',
+    	weight = 200,
+    	stack = true,
+    	close = true,
+	},
+	['achiga'] = {
+		label = 'Achigã',
+		weight = 1200,
+		stack = true,
+		close = true,
+	},
+
+	['robalo'] = {
+		label = 'Robalo',
+		weight = 2200,
+		stack = true,
+		close = true,
+	},
+	['caixa_peixe'] = {
+		label = 'Caixa de Peixe Embalado',
+		weight = 5000,
+		stack = true,
+		close = true,
+	},
+	['cana_pesca'] = {
+		label = 'Cana de Pesca',
+		weight = 1000,
+		stack = false,
+	},
+	['coin_vip'] = {
+		label = 'Moeda VIP',
+		weight = 0,
+		stack = true,
+		close = true,
+		description = 'Uma moeda rara usada para adquirir veículos exclusivos no Stand VIP.',
+		client = {
+			image = 'coin_vip.png', -- Certifica-te de ter a imagem em ox_inventory/web/images/
+		}
+	},
+	['axe_rusty'] = {
+		 	label = 'Rusty Axe',
+		 	weight = 8,
+		 	stack = false,
+		 	close = true,
+		 	client = {
+		 		export = 'qs-lumberjack.toggleAxe'
+		 	},
+		 	server = {
+		 		export = 'qs-lumberjack.axe'
+	 	},
+	},
+
+	['axe_iron'] = {
+		 	label = 'Iron-Edged Axe',
+		 	weight = 8,
+		 	stack = false,
+		 	close = true,
+		 	client = {
+		 		export = 'qs-lumberjack.toggleAxe'
+		 	},
+		 	server = {
+		 		export = 'qs-lumberjack.axe'
+	 	},
+	},
+		
+	['axe_mythical'] = {
+		 	label = 'Mythical Axe',
+		 	weight = 8,
+		 	stack = false,
+		 	close = true,
+		 	client = {
+		 		export = 'qs-lumberjack.toggleAxe'
+		 	},
+		 	server = {
+		 		export = 'qs-lumberjack.axe'
+	 	},
+	},
+		
+	['laundry_card'] = {
+		label = 'cartão da Lavandaria',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = 'Este cartão serve para o funcionamento das Máquinas de Lavar.'
+	},
+
+	['suturekit'] = {
+		label = 'Suture Kit',
+		weight = 15,
+		stack = true,
+		close = true,
+	},
+	
+	['icepack'] = {
+		label = 'Ice Pack',
+		weight = 29,
+		stack = true,
+		close = true,
+	},
+	
+	['burncream'] = {
+		label = 'Burn Cream',
+		weight = 19,
+		stack = true,
+		close = true,
+	},
+	
+	['defib'] = {
+		label = 'Defibrillator',
+		weight = 225,
+		stack = false,
+		close = true,
+	},
+	
+	['sedative'] = {
+		label = 'Sedative',
+		weight = 15,
+		stack = true,
+		close = true,
+	},
+
+	['morphine30'] = {
+		label = 'Morphine 30MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['morphine15'] = {
+		label = 'Morphine 15MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['perc30'] = {
+		label = 'Percocet 30MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['perc10'] = {
+		label = 'Percocet 10MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['perc5'] = {
+		label = 'Percocet 5MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['vic10'] = {
+		label = 'Vicodin 10MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	['vic5'] = {
+		label = 'Vicodin 5MG',
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+	
+	['recoveredbullet'] = {
+		label = 'Recovered Bullet',
+		weight = 1,
+		stack = true,
+		close = false,
+	},
+	
+	['kq_emergency_lights_kit'] = {
+		label = 'Luzes de Emergência',
+		weight = 1,
+		stack = true,
+		close = false,
+	},
+
+	['rawburgerpatty'] = {
+	label = 'Burger patty',
+	weight = 100,
+	degrade = 120,
+	},
+
+	['cookedburgerpatty'] = {
+		label = 'Cooked Burger patty',
+		weight = 100,
+		degrade = 30,
+	},
+
+	['veganburgerpatty'] = {
+		label = 'Vegan Burger patty',
+		weight = 100,
+		degrade = 250,
+	},
+
+	['cookedveganburgerpatty'] = {
+		label = 'Cooked Vegan Burger patty',
+		weight = 100,
+		degrade = 30,
+	},
+
+	['potato'] = {
+		label = 'Potato',
+		weight = 100,
+	},
+
+	['cutpotato'] = {
+		label = 'Sliced Potato',
+		weight = 100,
+	},
+
+	['onion'] = {
+		label = 'Onion',
+		weight = 60,
+	},
+
+	['cutonion'] = {
+		label = 'Sliced Onion',
+		weight = 60,
+	},
+
+	['tomato'] = {
+		label = 'Tomato',
+		weight = 40,
+	},
+
+	['cuttomato'] = {
+		label = 'Sliced Tomato',
+		weight = 40,
+	},
+
+	['burgerbun'] = {
+		label = 'Burger bun',
+		weight = 50,
+	},
+
+	['cheddar'] = {
+		label = 'Cheddar cheese',
+		weight = 20,
+	},
+
+	['lettuce'] = {
+		label = 'Lettuce',
+		weight = 40,
+	},
+
+	['cutlettuce'] = {
+		label = 'Sliced Lettuce',
+		weight = 40,
+	},
+
+	['nuggets'] = {
+		label = 'Raw chicken nuggets',
+		weight = 40,
+		degrade = 120,
+	},
+
+	['receipt'] = {
+		label = 'Receipt',
+		weight = 1,
+	},
+
+	['bleeder'] = {
+		label = 'Bleeder burger',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si burger'
+		},
+		degrade = 60,
+	},
+
+	['meatfree'] = {
+		label = 'Vegan burger',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si burger'
+		},
+		degrade = 60,
+	},
+
+	['torpedo'] = {
+		label = 'Torpedo sandwich',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si burger'
+		},
+		degrade = 60,
+	},
+
+	['cookednuggets'] = {
+		label = 'Chicken nuggets',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'You ate chicken nuggets'
+		},
+		degrade = 60,
+	},
+
+	['heartstopper'] = {
+		label = 'Heartstopper burger',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si burger'
+		},
+		degrade = 60,
+	},
+
+	['moneyshot'] = {
+		label = 'Money shot burger',
+		weight = 250,
+		client = {
+			status = { hunger = 40000 },
+			anim = 'eating',
+			prop = { model = `prop_cs_burger_01`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si burger'
+		},
+		degrade = 60,
+	},
+
+	['fries'] = {
+		label = 'Fries',
+		weight = 100,
+		client = {
+			status = { hunger = 30000 },
+			anim = 'eating',
+			prop = { model = `prop_food_bs_chips`, pos = vec3(0.13, 0.05, 0.02), rot = vec3(-50.0, 16.0, 60.0) },
+			usetime = 2500,
+			notification = 'Pojeo si pomfrit'
+		},
+		degrade = 60,
+	},
+
+	['bscoke'] = {
+		label = 'Burgershot Coke',
+		weight = 100,
+		client = {
+			status = { thirst = 120000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_food_bs_juice01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Popio si kole'
+		},
+	},
+
+	['bscoffee'] = {
+		label = 'Burgershot Coffee',
+		weight = 100,
+		client = {
+			status = { thirst = 120000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_food_bs_coffee`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Popio si kafe'
+		}
+	},
+
+	['milkshake'] = {
+		label = 'Milkshake',
+		weight = 100,
+		client = {
+			status = { thirst = 120000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_bs_cup`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'Popio si milkshake'
+		},
+		degrade = 60,
+	},
+
+	['baking_soda'] = {
+    label = 'Bicarbonato de Sódio',
+    weight = 100,
+    stack = true,
+    close = true,
+	},
+
+	['breadbun'] = {
+		label = 'Pão de Hambúrguer',
+		weight = 150,
+		stack = true,
+		close = true,
+	},
+
+	['cheese'] = {
+		label = 'Queijo',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	['butter'] = {
+		label = 'Manteiga',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	['chicken_raw'] = {
+		label = 'Frango Cru',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+
+	['chickenpatty'] = {
+		label = 'Hambúrguer de Frango',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	['drinks_flavour'] = {
+		label = 'Aroma para Bebidas',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	['mac_cheese'] = {
+		label = 'Mac & Cheese',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+
+	['onieon_slice'] = {
+		label = 'Fatia de Cebola',
+		weight = 20,
+		stack = true,
+		close = true,
+	},
+
+	['flour'] = {
+		label = 'Farinha',
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+
+	['salad'] = {
+		label = 'Salada',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	['salt'] = {
+		label = 'Sal',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	['tomato_slice'] = {
+		label = 'Fatia de Tomate',
+		weight = 20,
+		stack = true,
+		close = true,
+	},
+
+	['sugar'] = {
+		label = 'Açúcar',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	['cream'] = {
+		label = 'Natas',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	['egg'] = {
+		label = 'Ovo',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	['milk'] = {
+		label = 'Leite',
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
+
+	['testburger'] = {
+		label = 'Test Burger',
+		weight = 220,
+		degrade = 60,
+		client = {
+			image = 'burger_chicken.png',
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			export = 'ox_inventory_examples.testburger'
+		},
+		server = {
+			export = 'ox_inventory_examples.testburger',
+			test = 'what an amazingly delicious burger, amirite?'
+		},
+		buttons = {
+			{
+				label = 'Lick it',
+				action = function(slot)
+					print('You licked the burger')
+				end
+			},
+			{
+				label = 'Squeeze it',
+				action = function(slot)
+					print('You squeezed the burger :(')
+				end
+			},
+			{
+				label = 'What do you call a vegan burger?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('A misteak.')
+				end
+			},
+			{
+				label = 'What do frogs like to eat with their hamburgers?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('French flies.')
+				end
+			},
+			{
+				label = 'Why were the burger and fries running?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('Because they\'re fast food.')
+				end
+			}
+		},
+		consume = 0.3
+	},
+
+	['bandage'] = {
+		label = 'Bandage',
+		weight = 115,
+		client = {
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
+			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
+			disable = { move = true, car = true, combat = true },
+			usetime = 2500,
+		}
+	},
+
+	['black_money'] = {
+		label = 'Dirty Money',
+	},
+
+	['burger'] = {
+		label = 'Burger',
+		weight = 220,
+		client = {
+			status = { hunger = 200000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+			notification = 'You ate a delicious burger'
+		},
+	},
+
+	['sprunk'] = {
+		label = 'Sprunk',
+		weight = 350,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_can_01`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 2500,
+			notification = 'You quenched your thirst with a sprunk'
+		}
+	},
+
+	['parachute'] = {
+		label = 'Parachute',
+		weight = 8000,
+		stack = false,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+			usetime = 1500
+		}
+	},
+
+	['garbage'] = {
+		label = 'Garbage',
+	},
+
+	['paperbag'] = {
+		label = 'Paper Bag',
+		weight = 1,
+		stack = false,
+		close = false,
+		consume = 0
+	},
+
+	['identification'] = {
+		label = 'Identification',
+		client = {
+			image = 'card_id.png'
+		}
+	},
+
+	['panties'] = {
+		label = 'Knickers',
+		weight = 10,
+		consume = 0,
+		client = {
+			status = { thirst = -100000, stress = -25000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_cs_panties_02`, pos = vec3(0.03, 0.0, 0.02), rot = vec3(0.0, -13.5, -1.5) },
+			usetime = 2500,
+		}
+	},
+
+	['lockpick'] = {
+		label = 'Lockpick',
+		weight = 160,
+	},
+
+	['phone'] = {
+		label = 'Phone',
+		weight = 190,
+		stack = false,
+		consume = 0,
+		client = {
+			add = function(total)
+				if total > 0 then
+					pcall(function() return exports.npwd:setPhoneDisabled(false) end)
+				end
+			end,
+
+			remove = function(total)
+				if total < 1 then
+					pcall(function() return exports.npwd:setPhoneDisabled(true) end)
+				end
+			end
+		}
+	},
+
+	['money'] = {
+		label = 'Money',
+	},
+
+	['mustard'] = {
+		label = 'Mustard',
+		weight = 500,
+		client = {
+			status = { hunger = 25000, thirst = 25000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
+			usetime = 2500,
+			notification = 'You.. drank mustard'
+		}
+	},
+
+	['water'] = {
+		label = 'Water',
+		weight = 500,
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
+			usetime = 2500,
+			cancel = true,
+			notification = 'You drank some refreshing water'
+		}
+	},
+
+	['radio'] = {
+		label = 'Radio',
+		weight = 1000,
+		stack = false,
+		allowArmed = true
+	},
+
+	['armour'] = {
+		label = 'Bulletproof Vest',
+		weight = 3000,
+		stack = false,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+			usetime = 3500
+		}
+	},
+
+	['clothing'] = {
+		label = 'Clothing',
+		consume = 0,
+	},
+
+	['mastercard'] = {
+		label = 'Fleeca Card',
+		stack = false,
+		weight = 10,
+		client = {
+			image = 'card_bank.png'
+		}
+	},
+
+	['scrapmetal'] = {
+		label = 'Scrap Metal',
+		weight = 80,
+	},
+
+	["alive_chicken"] = {
+		label = "Living chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["arcorn"] = {
+		label = "Arcorn",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blowpipe"] = {
+		label = "Blowtorch",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["bobby_pin"] = {
+		label = "Bobby Pin",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["bread"] = {
+		label = "Bread",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["burncream"] = {
+		label = "Burn Cream",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cannabis"] = {
+		label = "Cannabis",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carokit"] = {
+		label = "Body Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["carotool"] = {
+		label = "Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["clothe"] = {
+		label = "Cloth",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper"] = {
+		label = "Copper",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cutted_wood"] = {
+		label = "Cut wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["defib"] = {
+		label = "Defibrillator",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["diamond"] = {
+		label = "Diamond",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["essence"] = {
+		label = "Gas",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fabric"] = {
+		label = "Fabric",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fish"] = {
+		label = "Fish",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["fixkit"] = {
+		label = "Repair Kit",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["fixtool"] = {
+		label = "Repair Tools",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gazbottle"] = {
+		label = "Gas Bottle",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["gold"] = {
+		label = "Gold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["handcuffs"] = {
+			label = "Hand Cuffs",
+			weight = 1,
+			stack = true,
+			close = true,
+			client = {
+				export = 'esx_policejob.handcuffs' -- 'nome_da_pasta.nome_do_export'
+			}
+	},
+
+	["icepack"] = {
+		label = "Ice Pack",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron"] = {
+		label = "Iron",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["laundry_card"] = {
+		label = "cartão da Lavandaria",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["maple_syrup_extract"] = {
+		label = "Maple syrup extract",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["maple_wood"] = {
+		label = "Maple wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["marijuana"] = {
+		label = "Marijuana",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["medbag"] = {
+		label = "Medical Bag",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["medikit"] = {
+		label = "Medkit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["morphine15"] = {
+		label = "Morphine 15MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["morphine30"] = {
+		label = "Morphine 30MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["oak_bark"] = {
+		label = "Oak Bark",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["oak_wood"] = {
+		label = "Oak wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_chicken"] = {
+		label = "Chicken fillet",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["packaged_plank"] = {
+		label = "Packaged wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["perc10"] = {
+		label = "Percocet 10MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["perc30"] = {
+		label = "Percocet 30MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["perc5"] = {
+		label = "Percocet 5MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol"] = {
+		label = "Oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["petrol_raffin"] = {
+		label = "Processed oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["pine_resin"] = {
+		label = "Pine resin",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["pine_wood"] = {
+		label = "Pine wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["remote"] = {
+		label = "comando",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sedative"] = {
+		label = "Sedative",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["slaughtered_chicken"] = {
+		label = "Slaughtered chicken",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sponge"] = {
+		label = "Sponge",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["stone"] = {
+		label = "Stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["strong_fiber"] = {
+		label = "Strong fiber",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["suturekit"] = {
+		label = "Suture Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tweezers"] = {
+		label = "Tweezers",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["vic10"] = {
+		label = "Vicodin 10MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["vic5"] = {
+		label = "Vicodin 5MG",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["washed_stone"] = {
+		label = "Washed stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wood"] = {
+		label = "Wood",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wood_shavings"] = {
+		label = "Wood Shavings",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["wool"] = {
+		label = "Wool",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sbfphone"] = {
+		label = "IPhone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sbfphonebroken"] = {
+		label = "Broken Phone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cocaleaves"] = {
+		label = "Folhas de Coca",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["cocaine"] = {
+		label = "Saco de Cocaina",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["plastic_bag"] = {
+		label = "Plastic Bag",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["heroinpouch"] = {
+		label = "Saco de Heroina",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	["weed"] = {
+		label = "Weed",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["weedpouch"] = {
+		label = "Saco de Weed",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	["weedpowder"] = {
+		label = "Weed Powder",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["cocainepowder"] = {
+		label = "Cocaine Powder",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["heroinpowder"] = {
+		label = "Heroina em Pó",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["cokepouch"] = {
+		label = "Coke Pouch",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	["rawopium"] = {
+		label = "Raw Opium",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["meth"] = {
+		label = "Meta empacotada",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+	["methpowder"] = {
+		label = "Cristais de Meta",
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+
+
+	["coca_leaf"] = {
+		label = "Folhas de Coca",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["thermite"] = {
+		label = "Carga de Termite",
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
+
+	["chemical_sulfuric_acid"] = {
+		label = "Ácido Sulfúrico",
+		weight = 500,
+		stack = true,
+		close = true,
+	},
+
+	["iron_oxide"] = {
+		label = "Óxido de Ferro",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["aluminum_powder"] = {
+		label = "Pó de Alumínio",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["carapau"] = {
+		label = "Carapau",
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+
+	["advanced_pickaxe"] = {
+		label = "Advanced Pickaxe",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["air_filter"] = {
+		label = "Air Filter",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["awd_drivetrain"] = {
+		label = "AWD Drivetrain",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["banana"] = {
+		label = "Banana",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["blackpowder"] = {
+		label = "Black Powder",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["brakepad_replacement"] = {
+		label = "Brakepad Replacement",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["bulletproof_tyres"] = {
+		label = "Bulletproof Tyres",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["burgerxl"] = {
+		label = "Three patty burger",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["ceramic_brakes"] = {
+		label = "Ceramic Brakes",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cheescake"] = {
+		label = "Cheescake",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["chickenburger"] = {
+		label = "Chicken Burger",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["chickenpotato"] = {
+		label = "Chicken Potato",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["cleaning_kit"] = {
+		label = "Cleaning Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["clutch_replacement"] = {
+		label = "Clutch Replacement",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["coal"] = {
+		label = "Coal",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cocowhite"] = {
+		label = "Cocowhite",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["coffee"] = {
+		label = "Coffee",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["coffeebean"] = {
+		label = "Coffee Bean",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["concrete"] = {
+		label = "Concrete",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["concrete_package"] = {
+		label = "Concrete Package",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cookie"] = {
+		label = "Cookie",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["coollime"] = {
+		label = "Cool Lime",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["copper_ingot"] = {
+		label = "Copper Ingot",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["copper_ore"] = {
+		label = "Copper Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cosmetic_part"] = {
+		label = "Cosmetic Parts",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["crispychicken"] = {
+		label = "Crispy Chicken",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["cupcake"] = {
+		label = "Cupcake",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["diamond_ingot"] = {
+		label = "Diamond Ingot",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["diamond_ore"] = {
+		label = "Diamond Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["donut"] = {
+		label = "Donut",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["dough"] = {
+		label = "Dough",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["drift_tuning_kit"] = {
+		label = "Drift Tuning Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["duct_tape"] = {
+		label = "Duct Tape",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["empty_nitrous_bottle"] = {
+		label = "Empty Nitrous Bottle",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["engine_oil"] = {
+		label = "Engine Oil",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["ethylalcohol"] = {
+		label = "Ethyl Alcohol",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["ev_battery"] = {
+		label = "EV Battery",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["ev_coolant"] = {
+		label = "EV Coolant",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["ev_motor"] = {
+		label = "EV Motor",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["extras_kit"] = {
+		label = "Extras Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["frappe"] = {
+		label = "Frappe",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["fruitpancakes"] = {
+		label = "Fruit Pancakes",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["fwd_drivetrain"] = {
+		label = "FWD Drivetrain",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["glass"] = {
+		label = "Glass",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["glass_mold"] = {
+		label = "Glass Mold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["goldingot"] = {
+		label = "Gold Ingot",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["gold_ore"] = {
+		label = "Gold Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["i4_engine"] = {
+		label = "I4 Engine",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["ice"] = {
+		label = "Ice",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["icecream"] = {
+		label = "Ice cream",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["icetea"] = {
+		label = "Ice Tea",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["ingot_mold"] = {
+		label = "Ingot Mold",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron_ingot"] = {
+		label = "Iron Ingot",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["iron_ore"] = {
+		label = "Iron Ore",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["kurkakola"] = {
+		label = "Coke",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["lemon"] = {
+		label = "Lemon",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["lighting_controller"] = {
+		label = "Lighting Controller",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["limestone"] = {
+		label = "Lime Stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["magnolia"] = {
+		label = "Magnolia",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["manual_gearbox"] = {
+		label = "Manual Gearbox",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["mechanic_tablet"] = {
+		label = "Mechanic Tablet",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["mincedmeat"] = {
+		label = "Minced Meat",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["nitrous_bottle"] = {
+		label = "Nitrous Bottle",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["nitrous_install_kit"] = {
+		label = "Nitrous Install Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["normal_pickaxe"] = {
+		label = "Normal Pickaxe",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["offroad_tyres"] = {
+		label = "Offroad Tyres",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["onionring"] = {
+		label = "Onion Ring",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["performance_part"] = {
+		label = "Performance Parts",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["pistachio"] = {
+		label = "Pistachio",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["pizza"] = {
+		label = "Pizza",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["professional_pickaxe"] = {
+		label = "Professional Pickaxe",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["repair_kit"] = {
+		label = "Vehicle Repair Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["respray_kit"] = {
+		label = "Respray Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["rice"] = {
+		label = "Rice",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["ricepudding"] = {
+		label = "Rice Pudding",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["rock"] = {
+		label = "Rock",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["rwd_drivetrain"] = {
+		label = "RWD Drivetrain",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["salami"] = {
+		label = "Salami",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["sandstone"] = {
+		label = "Sand Stone",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sandwich"] = {
+		label = "Sandwich",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["semi_slick_tyres"] = {
+		label = "Semi Slick Tyres",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["yeast"] = {
+		label = "Yeast",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["slick_tyres"] = {
+		label = "Slick Tyres",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["spark_plug"] = {
+		label = "Spark Plug",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["special_water"] = {
+		label = "Special Water",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["stancing_kit"] = {
+		label = "Stance Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["sticky_gel"] = {
+		label = "Sticky Gel",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["strawberry"] = {
+		label = "Strawberry",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["sulfur"] = {
+		label = "Sulfur",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["suspension_parts"] = {
+		label = "Suspension Parts",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tenderloin"] = {
+		label = "Tenderloin",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["tracking_bracelet"] = {
+		label = "Tracking Bracelet",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["turbocharger"] = {
+		label = "Turbo",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tyre_replacement"] = {
+		label = "Tyre Replacement",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["tyre_smoke_kit"] = {
+		label = "Tyre Smoke Kit",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["v12_engine"] = {
+		label = "V12 Engine",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["v6_engine"] = {
+		label = "V6 Engine",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["v8_engine"] = {
+		label = "V8 Engine",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["vealmeat"] = {
+		label = "Veal Meat",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["vehicle_wheels"] = {
+		label = "Vehicle Wheels Set",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["waffle"] = {
+		label = "Waffle",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["water_bottle"] = {
+		label = "Bottle of Water",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["whitechocolate"] = {
+		label = "White Chocolate",
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+
+	["encomenda_grande"] = {
+		label = "Encomenda Grande",
+		weight = 15,
+		stack = true,
+		close = true,
+	},
+
+	["aviso_entrega"] = {
+		label = "Aviso de Entrega",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["carta"] = {
+		label = "Carta",
+		weight = 10,
+		stack = true,
+		close = true,
+	},
+
+	["scanner_postal"] = {
+		label = "Scanner Postal",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["folha_rotas"] = {
+		label = "Folha de Rotas",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["caixa_postal"] = {
+		label = "Caixa Postal",
+		weight = 8,
+		stack = true,
+		close = true,
+	},
+
+	["encomenda_pequena"] = {
+		label = "Encomenda Pequena",
+		weight = 5,
+		stack = true,
+		close = true,
+	},
+}
