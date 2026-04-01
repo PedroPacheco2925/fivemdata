@@ -1995,6 +1995,86 @@ return {
 		close = true,
 	},
 
+
+-- Peças e Componentes de Armas
+	['pecaarma'] = {
+		label = 'Peças de Metal',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	['corposmg'] = {
+		label = 'Corpo de SMG',
+		weight = 1500,
+		stack = true,
+		close = true,
+	},
+	['corposhotgun'] = {
+		label = 'Corpo de Shotgun',
+		weight = 1800,
+		stack = true,
+		close = true,
+	},
+	['gatilho'] = {
+		label = 'Mecanismo de Gatilho',
+		weight = 200,
+		stack = true,
+		close = true,
+	},
+	['mola'] = {
+		label = 'Mola de Recuo',
+		weight = 50,
+		stack = true,
+		close = true,
+	},
+	['cano_pistola'] = {
+		label = 'Cano de Pistola',
+		weight = 300,
+		stack = true,
+		close = true,
+	},
+	['cano_rifle'] = {
+		label = 'Cano de Rifle',
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
+
+	-- Matérias-Primas Adicionais para Munição
+	['chumbo'] = {
+		label = 'Barra de Chumbo',
+		weight = 800,
+		stack = true,
+		close = true,
+	},
+	
+	['trigger_mechanism'] = {
+		label = 'Mecanismo de Gatilho',
+		weight = 250,
+		stack = true,
+		close = true,
+	},
+	['weapon_spring'] = {
+		label = 'Mola de Recuo',
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+	['pistol_barrel'] = {
+		label = 'Cano de Pistola',
+		weight = 400,
+		stack = true,
+		close = true,
+	},
+	['rifle_barrel'] = {
+		label = 'Cano de Rifle',
+		weight = 1200,
+		stack = true,
+		close = true,
+	},
+
+
+
 	["vehicle_wheels"] = {
 		label = "Vehicle Wheels Set",
 		weight = 1,
